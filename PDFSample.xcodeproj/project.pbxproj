@@ -15,6 +15,7 @@
 		DA98B25A1EEB7AF900B73F14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA98B2581EEB7AF900B73F14 /* LaunchScreen.storyboard */; };
 		DA98B2651EEB7AF900B73F14 /* PDFSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA98B2641EEB7AF900B73F14 /* PDFSampleTests.swift */; };
 		DA98B2701EEB7AF900B73F14 /* PDFSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA98B26F1EEB7AF900B73F14 /* PDFSampleUITests.swift */; };
+		DA98B27E1EEB7B1E00B73F14 /* sample.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DA98B27D1EEB7B1E00B73F14 /* sample.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,8 @@
 		DA98B26B1EEB7AF900B73F14 /* PDFSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PDFSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA98B26F1EEB7AF900B73F14 /* PDFSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFSampleUITests.swift; sourceTree = "<group>"; };
 		DA98B2711EEB7AF900B73F14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA98B27D1EEB7B1E00B73F14 /* sample.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = sample.pdf; path = ../../../Downloads/sample.pdf; sourceTree = "<group>"; };
+		DA98B2801EEB7B9C00B73F14 /* PDFKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PDFKit.framework; path = System/Library/Frameworks/PDFKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,7 @@
 				DA98B2631EEB7AF900B73F14 /* PDFSampleTests */,
 				DA98B26E1EEB7AF900B73F14 /* PDFSampleUITests */,
 				DA98B24A1EEB7AF900B73F14 /* Products */,
+				DA98B27F1EEB7B9C00B73F14 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +109,7 @@
 				DA98B2561EEB7AF900B73F14 /* Assets.xcassets */,
 				DA98B2581EEB7AF900B73F14 /* LaunchScreen.storyboard */,
 				DA98B25B1EEB7AF900B73F14 /* Info.plist */,
+				DA98B27D1EEB7B1E00B73F14 /* sample.pdf */,
 				DA98B2531EEB7AF900B73F14 /* PDFSample.xcdatamodeld */,
 			);
 			path = PDFSample;
@@ -126,6 +131,14 @@
 				DA98B2711EEB7AF900B73F14 /* Info.plist */,
 			);
 			path = PDFSampleUITests;
+			sourceTree = "<group>";
+		};
+		DA98B27F1EEB7B9C00B73F14 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA98B2801EEB7B9C00B73F14 /* PDFKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,6 +248,7 @@
 				DA98B25A1EEB7AF900B73F14 /* LaunchScreen.storyboard in Resources */,
 				DA98B2571EEB7AF900B73F14 /* Assets.xcassets in Resources */,
 				DA98B2521EEB7AF900B73F14 /* Main.storyboard in Resources */,
+				DA98B27E1EEB7B1E00B73F14 /* sample.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
