@@ -15,7 +15,7 @@
 		DA98B25A1EEB7AF900B73F14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA98B2581EEB7AF900B73F14 /* LaunchScreen.storyboard */; };
 		DA98B2651EEB7AF900B73F14 /* PDFSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA98B2641EEB7AF900B73F14 /* PDFSampleTests.swift */; };
 		DA98B2701EEB7AF900B73F14 /* PDFSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA98B26F1EEB7AF900B73F14 /* PDFSampleUITests.swift */; };
-		DA98B27E1EEB7B1E00B73F14 /* sample.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DA98B27D1EEB7B1E00B73F14 /* sample.pdf */; };
+		DAE9CCC61EF5C694008BFDD4 /* sample.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DAE9CCC51EF5C611008BFDD4 /* sample.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,8 +50,8 @@
 		DA98B26B1EEB7AF900B73F14 /* PDFSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PDFSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA98B26F1EEB7AF900B73F14 /* PDFSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFSampleUITests.swift; sourceTree = "<group>"; };
 		DA98B2711EEB7AF900B73F14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DA98B27D1EEB7B1E00B73F14 /* sample.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = sample.pdf; path = ../../../Downloads/sample.pdf; sourceTree = "<group>"; };
 		DA98B2801EEB7B9C00B73F14 /* PDFKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PDFKit.framework; path = System/Library/Frameworks/PDFKit.framework; sourceTree = SDKROOT; };
+		DAE9CCC51EF5C611008BFDD4 /* sample.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = sample.pdf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,7 +109,7 @@
 				DA98B2561EEB7AF900B73F14 /* Assets.xcassets */,
 				DA98B2581EEB7AF900B73F14 /* LaunchScreen.storyboard */,
 				DA98B25B1EEB7AF900B73F14 /* Info.plist */,
-				DA98B27D1EEB7B1E00B73F14 /* sample.pdf */,
+				DAE9CCC51EF5C611008BFDD4 /* sample.pdf */,
 				DA98B2531EEB7AF900B73F14 /* PDFSample.xcdatamodeld */,
 			);
 			path = PDFSample;
@@ -245,10 +245,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAE9CCC61EF5C694008BFDD4 /* sample.pdf in Resources */,
 				DA98B25A1EEB7AF900B73F14 /* LaunchScreen.storyboard in Resources */,
 				DA98B2571EEB7AF900B73F14 /* Assets.xcassets in Resources */,
 				DA98B2521EEB7AF900B73F14 /* Main.storyboard in Resources */,
-				DA98B27E1EEB7B1E00B73F14 /* sample.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -542,6 +542,7 @@
 				DA98B2761EEB7AF900B73F14 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DA98B2771EEB7AF900B73F14 /* Build configuration list for PBXNativeTarget "PDFSampleTests" */ = {
 			isa = XCConfigurationList;
@@ -550,6 +551,7 @@
 				DA98B2791EEB7AF900B73F14 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DA98B27A1EEB7AF900B73F14 /* Build configuration list for PBXNativeTarget "PDFSampleUITests" */ = {
 			isa = XCConfigurationList;
@@ -558,6 +560,7 @@
 				DA98B27C1EEB7AF900B73F14 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
